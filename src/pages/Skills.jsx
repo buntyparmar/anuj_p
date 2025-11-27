@@ -6,8 +6,8 @@ const SKILLS = [
   { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "PowerBI", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg" },
-  { name: "Excel", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" },
+  { name: "PowerBI", logo: "https://img.icons8.com/fluency/48/power-bi-2021.png" },
+  { name: "Excel", logo: "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" },
   ];
 
 const ROWS = [
