@@ -32,18 +32,18 @@ const IMAGES = {
       photos: ["/gallery/profilex.jpeg", "/gallery/profilex2.jpeg","/gallery/profilex3.jpeg", "/gallery/profilex4.jpeg"],
     },
   ],
-  achievements: [
-    {
-      id: 1,
-      caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
-    },
-    {
-      id: 2,
-      caption: "Technical Lead at SCET AI Club 🤖",
-      photos: ["/gallery/techlead.png"],
-    },
-  ],
+  // achievements: [
+  //   {
+  //     id: 1,
+  //     caption: "Solved 1000 LeetCode questions 🏆!",
+  //     photos: ["/gallery/leet.jpeg"],
+  //   },
+  //   {
+  //     id: 2,
+  //     caption: "Tech Club Data Analytics🤖",
+  //     photos: ["/gallery/techlead.png"],
+  //   },
+  // ],
 };
 
 // ✨ Animation Variants
@@ -115,7 +115,7 @@ export default function Gallery() {
 
       {/* 🧭 Tabs */}
       <motion.div className="tab-buttons" variants={childVariants}>
-        {["personal", "projects", "achievements"].map((type) => (
+        {["projects"].map((type) => (
           <motion.button
             key={type}
             className={`tab ${tab === type ? "active" : ""}`}

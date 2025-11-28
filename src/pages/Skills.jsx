@@ -14,18 +14,18 @@ const ROWS = [
   [
     { title: "Programming Languages", items: ["Python"] },
     { title: "Web Technologies", items: ["HTML"] },
-    { title: "Databases & Tools", items: ["MySQL", "PowerBI"] },
-    { title: "Frameworks & Libraries", items: ["Excel"] },
+    { title: "Databases & Tools", items: ["MySQL"] },
+    { title: "Frameworks & Libraries", items: ["Excel", "PowerBI"] },
   ],
   [
     {
       title: "Core Concepts",
       items: [
         "Data Structures & Algorithms",
-        "Machine Learning",
-        "Deep Learning",
-        "YOLO Object Detection",
-        "Explainable AI (XAI)",
+        "Data Analytics & Reporting",
+        "SQL & Database Management",
+        "Power BI & Data Visualization",
+        "Statistical Analysis"
       ],
     },
     {
